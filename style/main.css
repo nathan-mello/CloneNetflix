@@ -57,6 +57,7 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .filme-indicação .titulo {
@@ -76,8 +77,8 @@ header nav a:hover {
     border: none;
     color: white;
     padding: 15px 30px;
-    /*margin-right: 10px;*/
-    margin-left: 10px;
+    margin-right: 10px;
+    /*margin-left: 10px;*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
@@ -91,4 +92,19 @@ header nav a:hover {
 
 .botao i {
     margin: 5px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.filme-indicação .container {
+    width: 60%;
+}
+
+.filme-box {
+    width: 80%;
+    height: 80%;
+    display: block;
 }
