@@ -86,12 +86,16 @@ header nav a:hover {
 }
 
 .botao:hover {
-    background-color: white;
     color: black;
 }
 
 .botao i {
     margin: 5px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
 }
 
 .container {
